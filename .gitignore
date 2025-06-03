@@ -1,0 +1,24 @@
+# 1) Ignore absolutely everything
+*
+
+# 2) But don’t ignore this .gitignore file, so these rules stay versioned
+!/.gitignore
+
+# 3) Un-ignore our top-level files:
+!/main.py
+!/README.md
+
+# 4) Un-ignore the projects/ directory itself
+!/projects/
+
+# 5) Inside projects/, ignore all files by default…
+/projects/*
+
+# 6) …but then un-ignore only the one JSON we want
+!/projects/my-project.json
+
+# 7) Un-ignore the output/ directory itself
+!/output/
+
+# 8) Ignore every file inside output/
+ /output/*

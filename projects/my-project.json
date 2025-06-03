@@ -1,0 +1,11 @@
+{
+  "title": "My Amazing Project",
+  "absolute_path": "/home/haslien/code/my-amazing-project",
+  "start_prompt": "Please get acquainted with this project’s structure and source files. I will send you multiple files in sequence—review and understand their contents. Once you have absorbed the overall context, wait for my instructions before performing any specific tasks. Here it comes: \n \n",
+  "start_text": "This is the content of \"{file}\"",
+  "files": [
+    "src/app.tsx",
+    "src/db.tsx",
+    "README.md"
+  ]
+}
