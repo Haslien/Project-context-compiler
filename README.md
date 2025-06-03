@@ -1,0 +1,2 @@
+# Project-context-compiler
+Project Context Compiler is a lightweight Python utility designed to gather every relevant source file in your codebase into one unified text document. By reading a simple JSON configuration, it locates each file, inserts standardized headers (e.g., “This is the content of src/app.tsx”), and concatenates all contents into a single output file. This makes it effortless to share your entire project’s context when you start a conversation with any large language model—simply paste one text file instead of dozens of individual sources.
