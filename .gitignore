@@ -7,6 +7,8 @@
 # 3) Un-ignore our top-level files:
 !/main.py
 !/README.md
+!/map_structure.py
+!/design.py
 
 # 4) Un-ignore the projects/ directory itself
 !/projects/
