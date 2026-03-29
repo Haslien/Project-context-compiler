@@ -24,3 +24,7 @@
 
 # 8) Ignore every file inside output/
  /output/*
+
+# 9) Un-ignore .claude/ directory for skills etc.
+!/.claude/
+!/.claude/**
